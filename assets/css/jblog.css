@@ -166,7 +166,7 @@ div#footer		{ color:#666 }
 #post_area #list table tr {border-bottom: 1px solid #B7B7B7; }
 #post_area #list table td {padding: 6px 5px 6px 5px; }
 
-@media screen and (max-width: 767px) {
+@media only screen and (max-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 	body {
 	  width: auto;
 	}

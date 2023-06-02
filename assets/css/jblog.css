@@ -108,30 +108,9 @@ div#footer		{ color:#666 }
 #center-content #resultList {min-height: 500px;}
 
 
-/**************************************************************************/
-/* 메인-회원가입_로그인 ***************************************************/
-/**************************************************************************/
-/* 공통 */
 #center-content td {padding-top:10px; text-align:left;}
 #center-content #btnArea {margin:30px 0px 0px 0px; padding: 10px;  border-top: 1px solid #808080;}
 
-
-/* 회원가입 */
-#center-content #joinForm {width: 400px; margin: 0px auto; padding: 20px; border: 1px solid #B7B7B7; }
-#center-content #joinForm #txtId {width: 160px; height: 30px; }
-#center-content #joinForm #btnIdCheck {width: 100px; height: 32px; }
-#center-content #joinForm #tdMsg {padding-top: 0px; }
-#center-content #joinForm #txtPassword {width: 160px; height: 30px; }
-#center-content #joinForm #txtUserName {width: 160px; height: 30px; }
-#center-content #joinForm #chkAgree {width: 15px; height: 15px; }
-
-/* 회원가입 성공 */
-
-/* 로그인 */
-#center-content #loginForm										{ width:300px; margin: 0px auto; padding: 20px; border: 1px solid #B7B7B7; }
-#center-content #loginForm #textId {width: 160px; height: 30px; }
-#center-content #loginForm #textPassword {width: 160px; height: 30px; }
-#center-content #loginForm #tdMsg {padding-top: 20px; text-align: center; }
 
 
 

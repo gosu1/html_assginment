@@ -87,7 +87,7 @@ a:hover {text-decoration: none; color: #000000; }
 
 /* 메인-푸터 */
 #center-content #footer {height: 40px; padding:0px 10px 0px 10px; background:#F0F0F0; }
-#center-content #footer li {margin-right: 20px; paddign: 10px; float: left; font-size: 13px;  line-height:40px;}
+#center-content #footer li {margin-right: 20px; padding: 10px; float: left; font-size: 13px;  line-height:40px;}
 div#footer		{ color:#666 }
 
 
@@ -104,21 +104,7 @@ div#footer		{ color:#666 }
 #center-content #search-form input[type='radio']	{ margin-right:20px; }
 
 
-/* 메인-검색결과 리스트 */
-#center-content #resultList {min-height: 500px;}
-
-
-#center-content td {padding-top:10px; text-align:left;}
-#center-content #btnArea {margin:30px 0px 0px 0px; padding: 10px;  border-top: 1px solid #808080;}
-
-
-
-
-/****************************************************************/
-/* 개인블로그 ***************************************************/
-/****************************************************************/
-
-/* 개인블로그 레이아웃 */
+/*블로그 레이아웃 */
 #wrap 								{width: 1000px; margin: 0px auto;}
 #wrap #header 						{height: 90px; margin: 0px 0px 10px 0px; padding: 30px 10px 10px 10px;  background-color: #26AA46;}
 
@@ -136,20 +122,20 @@ div#footer		{ color:#666 }
 #header ul		{float: right; margin: 18px 0px 0px 0px;}
 #header ul>li	{float: left; margin: 0px 0px 0px 10px;}
 
-/* 개인블로그 왼쪽영역(프로필) */
+/*왼쪽영역(프로필) */
 #profilecate_area #profile			{margin: 0px 0px 5px 0px; padding: 4px; border: 1px solid #808080;}
 #profilecate_area #profile #proImg  {width: 180px; margin: 0px 0px 0px 0px;}
 #profilecate_area #profile #nick  	{width: 180px; margin: 0px 0px 5px 0px; font-size:13px; font-weight:bold;}
 
 
-/* 개인블로그 왼쪽영역(카테고리) */
+/*왼쪽영역(카테고리) */
 #profilecate_area #cate					{padding: 10px 5px 15px 5px; border: 1px solid #808080;}
 #profilecate_area #cateList>li			{margin: 4px 0px 3px 0px; padding: 0px 5px 0px 10px;}
 #profilecate_area #cateList>li:before	{content:"+ ";}
 #profilecate_area #cateList>li:hover	{font-weight: bold;}
 
 
-/* 개인블로그 오른쪽영역(글post) */
+/*오른쪽영역(글post) */
 #post_area  						{padding: 0px 10px 0px 0px;}
 #post_area #postBox			 		{padding: 0px 0px 5px 0px; border-bottom: 1px solid #808080;}
 #post_area #postBox #postTitle 		{width: 790px; float: left; padding: 5px 0px 0px 0px; font-size: 22px;}
@@ -159,96 +145,10 @@ div#footer		{ color:#666 }
 
 
 
-
-/* 개인블로그 오른쪽영역(글리스트) */
+/*오른쪽영역(글리스트) */
 #post_area {}
 #post_area #list #listTitle {width: 100%; margin: 50px 0px 5px 0px; padding: 0px 5px 3px 5px; border-bottom: 1px solid #808080; }
 #post_area #list table {width: 100%; border-collapse: collapse; font-size: 13px;}
 #post_area #list table tr {border-bottom: 1px solid #B7B7B7; }
 #post_area #list table td {padding: 6px 5px 6px 5px; }
 
-@media only screen and (max-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-	body { 
-	  width: auto !important;
-	}
-	
-	#menu {
-	  float: none;
-	  overflow: hidden;
-	  margin-bottom: 10px;
-	}
-	
-	#wrap {
-	  width: auto;
-	  margin: 0;
-	}
-	
-	#header {
-	  padding: 10px;
-	}
-	
-	#header h1 a {
-	  font-size: 24px;
-	}
-	
-	#header ul {
-	  margin: 10px 0;
-	}
-	
-	#content {
-	  margin: 0;
-	  padding: 0;
-	}
-	
-	#profilecate_area {
-	  width: 100%;
-	  float: none;
-	  margin: 0;
-	}
-	
-	#profilecate_area #profile,
-	#profilecate_area #cate {
-	  padding: 10px;
-	}
-	
-	#post_area {
-	  width: 100%;
-	  float: none;
-	  padding: 10px;
-	}
-	
-	#postBox {
-	  padding: 10px 0;
-	  text-align: center;
-	}
-	
-	#postBox #postTitle {
-	  font-size: 18px;
-	}
-	
-	#postBox #postDate,
-	#postBox #postNick {
-	  width: 100%;
-	  float: none;
-	  text-align: center;
-	}
-	
-	
-	#list #listTitle {
-	  margin: 30px 0 5px 0;
-	  padding: 0 5px 3px 0;
-	}
-	
-	#list table {
-	  width: 100%;
-	}
-	
-	#list table td {
-	  text-align: center;
-	}
-	
-	#footer {
-	  padding: 10px;
-	}
-  }
-  
